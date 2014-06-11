@@ -16,7 +16,7 @@ describe Plateau do
     expect(plateau.y).to eql 5
   end
 
-  it "should have a size of squares that is the product of x and y" do
+  it "should have a the total number of coordinates possible on the plateau" do
     expect(plateau.size). to eql ((plateau.x+1) * (plateau.y+1))
   end
 end

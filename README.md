@@ -42,6 +42,7 @@ MMRMMRMRRM
 * Navigate to the MarsRover folder in your terminal
 * Check with `ruby -v` if you have Ruby installed, the **.ruby-version** file specifies the version of Ruby used for this code
 * Run `bundle install`
+* Run the test suite with `rspec spec`
 * Run `ruby main.rb`
 * Check for the newly created **output.csv** file to view the output
 
@@ -57,8 +58,6 @@ MMRMMRMRRM
 
 ### Further information:
 
-* I decided to feed input via a CSV file
+* I decided to feed the test input via a CSV file
 * The desired output is also printed to a file
 * I used **binding.pry** (gem 'pry') for debugging.
-
-

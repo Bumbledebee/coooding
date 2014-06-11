@@ -1,4 +1,3 @@
-require 'rspec'
 require_relative 'lib/control_panel'
 require_relative 'lib/excursion'
 require_relative 'lib/plateau'
@@ -10,5 +9,3 @@ nasa.get_rovers
 nasa.get_plateau
 nasa.ride_rovers
 nasa.print_position
-
-

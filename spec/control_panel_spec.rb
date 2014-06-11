@@ -17,4 +17,3 @@ describe ControlPanel do
     expect(rover.move).to eql 3
   end
 end
-
